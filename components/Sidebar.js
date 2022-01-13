@@ -31,7 +31,7 @@ export default function Sidebar() {
         <SlidebarLink text="更多" Icon={DotsCircleHorizontalIcon} active />
       </div>
       <button className="hidden xl:inline ml-auto bg-[#1d9bf0] text-white rounded-full 
-      w-56 h-[52px] text-log font-bold shadow-md hover:bg-[#1a8cd8]">Tweet</button>
+      w-56 h-[52px] text-log font-bold shadow-md hover:bg-[#1a8cd8]">貼文</button>
       <div className="text-[#d9d9d9] flex items-center justify-center hoverAnimation xl:ml-auto xl-mr-5 mt-auto"
       onClick={signOut}>
           <img src={session.user.image} alt="Profile Picture"
